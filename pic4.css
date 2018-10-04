@@ -1,0 +1,102 @@
+.khung{
+	margin: 0 auto;
+	width: 700px;
+	height: 500px;
+	background:gray; 
+	position: relative;
+}
+.khung .content{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;	
+}
+.khung .content img{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+}
+.content h3{
+	width: 70%;
+    height: 10%;
+    color: white;
+    top: 30px;
+    left: 16%;
+    position: absolute;
+    font-size: 50px;	
+}.content h4{
+	width: 70%;
+    height: 10%;
+    color: white;
+    top: 114px;
+    left: 18%;
+    position: absolute;
+    font-size: 20px;
+    opacity: 0.6;
+}
+.content h5{
+	width: 70%;
+    height: 10%;
+    color: white;
+    top: 132px;
+    left: 25%;
+    position: absolute;
+    font-size: 25px;
+	opacity: 0.9;
+}
+.content input{
+	display: block;
+	width: 155px;
+	height: 50px;
+    text-align: center;
+     position: absolute;
+     background-color: rgb(165,155,155,0.5);
+ }
+ .content input:focus{
+ 	color: red;
+ }
+ .content input.SERGE{
+ 	bottom: 200px;
+ 	left: 171px;
+ }
+ .content input.LATE{
+ 	bottom: 200px;
+ 	right:  171px;
+ }
+ .content input.Fall{
+ 	bottom: 120px;
+ 	left: 275px;
+ }
+ .khung ul{
+list-style-type: none;
+ }
+ .khung ul li{
+ 	display: block;
+ 	width: 80px;
+ 	height: 80px;
+ 	position: absolute;
+ }
+ .khung ul li a{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ 	color: white;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	line-height: 80px;
+ 	text-indent: -9999px;
+ }
+ .khung li.prev{
+ 	top: 200px;
+ 	left: 5px;
+ 	background-image: url(https://image.flaticon.com/icons/svg/118/118739.svg);
+ 	background-size: 120px 80px;
+ 	background-position: right -10px top 0px;
+ }
+ .khung li.next{
+ 	top: 200px;
+ 	right: 5px;
+ 	background-image: url(https://image.flaticon.com/icons/svg/118/118740.svg);
+ 	background-size: 120px 80px;
+ 	background-position: right -10px top 0px;
+ }
